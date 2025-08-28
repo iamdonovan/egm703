@@ -3,10 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python
   - geopandas
   - cartopy
-  - notebook
+  - jupyterlab
+  - ipywidgets
+  - ipympl
   - rasterio
   - rasterstats=0.14.0
   - spectral
